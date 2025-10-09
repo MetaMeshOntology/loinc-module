@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:mmo="http://purl.org/mit/mmo#"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <rdf:Description rdf:about="http://purl.org/mit/mmo/modules/loinc#62292-8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Calcidiol+ercalcidiol:MCnc:Pt:Ser/Plas:Qn</rdfs:label>
+    <rdfs:comment>Assesses total vitamin D status by quantifying 25-hydroxy and 24,25-dihydroxy derivatives.</rdfs:comment>
+    <mmo:hasExternalParent rdf:resource="http://purl.bioontology.org/ontology/LNC/LP385185-6"/>
+    <mmo:isConstantRefinementOf rdf:resource="http://purl.org/mit/mmo/cdf#PhysiologicalQuality"/>
+    <mmo:isMappedTo rdf:resource="http://purl.bioontology.org/ontology/LNC/62292-8"/>
+    <mmo:isPartOfModule rdf:resource="http://purl.org/mit/mmo/modules/loinc"/>
+    <mmo:hasSource>LOINC</mmo:hasSource>
+    <dcterms:source>LOINC Concept 62292-8</dcterms:source>
+    <owl:equivalentClass rdf:resource="loinc:62292-8"/>
+    <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/LNC/62292-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/mit/mmo/modules/loinc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/mit/mmo#OntologyModule"/>
+    <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    <dc:title>LOINC Ontology Module for Meta Mesh Ontology</dc:title>
+    <dcterms:title>LOINC Ontology Module for Meta Mesh Ontology</dcterms:title>
+    <dcterms:contributor>Dr. Rogério Blitz</dcterms:contributor>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0002-4505-4593"/>
+    <dcterms:created>2025-05-08</dcterms:created>
+    <dcterms:modified>2025-10-09</dcterms:modified>
+    <dcterms:hasVersion>0.1.2</dcterms:hasVersion>
+    <dcterms:isVersionOf rdf:resource="http://purl.org/mit/mmo/modules/loinc"/>
+    <dcterms:license rdf:resource="https://opensource.org/licenses/MIT"/>
+    <dcterms:publisher>Dr. Rogério Blitz</dcterms:publisher>
+    <dcterms:rights>This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</dcterms:rights>
+    <dcterms:rightsHolder>Dr. Rogério Blitz</dcterms:rightsHolder>
+    <rdfs:label>LOINC Ontology Module</rdfs:label>
+    <rdfs:label>Logical Observation Identifier Names and Codes Integration Module</rdfs:label>
+    <rdfs:comment>
+            This module integrates selected concepts from the LOINC ontology into the Meta Mesh Ontology.
+            It supports reasoning-compatible classification while preserving original semantic context.
+        </rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1.2</owl:versionInfo>
+    <skos:changeNote rdf:resource="https://www.w3.org/2009/08/skos-reference/skos.html"/>
+    <mmo:hasDomain>laboratory and clinical measurements</mmo:hasDomain>
+    <mmo:isBFOCompliant rdf:nodeID="Nfb5d9ec34b0e49a8a296199b0df25fc2"/>
+    <mmo:hasScope>specific</mmo:hasScope>
+    <mmo:hasUseCase>Integration of LOINC concepts into the MMO</mmo:hasUseCase>
+    <mmo:definesClass rdf:resource="http://purl.org/mit/mmo/modules/loinc#9813-7"/>
+    <mmo:definesClass rdf:resource="http://purl.org/mit/mmo/modules/loinc#8867-4"/>
+    <mmo:definesClass rdf:resource="http://purl.org/mit/mmo/modules/loinc#39156-5"/>
+    <mmo:definesClass rdf:resource="http://purl.org/mit/mmo/modules/loinc#62292-8"/>
+    <mmo:definesClass rdf:resource="http://purl.org/mit/mmo/modules/loinc#1988-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/mit/mmo/modules/loinc#9813-7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Cortisol^AM peak specimen:MCnc:Pt:Ser/Plas:Qn</rdfs:label>
+    <rdfs:comment>Quantifies morning peak cortisol levels to evaluate adrenal function and stress response.</rdfs:comment>
+    <mmo:hasExternalParent rdf:resource="http://purl.bioontology.org/ontology/LNC/LP381061-3"/>
+    <mmo:isConstantRefinementOf rdf:resource="http://purl.org/mit/mmo/cdf#PhysiologicalQuality"/>
+    <mmo:isMappedTo rdf:resource="http://purl.bioontology.org/ontology/LNC/9813-7"/>
+    <mmo:isPartOfModule rdf:resource="http://purl.org/mit/mmo/modules/loinc"/>
+    <mmo:hasSource>LOINC</mmo:hasSource>
+    <dcterms:source>LOINC Concept 9813-7</dcterms:source>
+    <owl:equivalentClass rdf:resource="loinc:9813-7"/>
+    <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/LNC/9813-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/mit/mmo/modules/loinc#39156-5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Body mass index:Ratio:Pt:^Patient:Qn</rdfs:label>
+    <rdfs:comment>Quantitative index derived from weight and height, used to categorize body composition.</rdfs:comment>
+    <mmo:hasExternalParent rdf:resource="http://purl.bioontology.org/ontology/LNC/MTHU000036"/>
+    <mmo:isConstantRefinementOf rdf:resource="http://purl.org/mit/mmo/cdf#PhysiologicalRelationalQuality"/>
+    <mmo:isMappedTo rdf:resource="http://purl.bioontology.org/ontology/LNC/39156-5"/>
+    <mmo:isPartOfModule rdf:resource="http://purl.org/mit/mmo/modules/loinc"/>
+    <mmo:hasSource>LOINC</mmo:hasSource>
+    <dcterms:source>LOINC Concept 39156-5</dcterms:source>
+    <owl:equivalentClass rdf:resource="loinc:39156-5"/>
+    <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/LNC/39156-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/mit/mmo/modules/loinc#1988-5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>C reactive protein:MCnc:Pt:Ser/Plas:Qn</rdfs:label>
+    <rdfs:comment>Biomarker of systemic inflammation indicating acute or chronic inflammatory states.</rdfs:comment>
+    <mmo:hasExternalParent rdf:resource="http://purl.bioontology.org/ontology/LNC/LP384546-0"/>
+    <mmo:isConstantRefinementOf rdf:resource="http://purl.org/mit/mmo/cdf#PhysiologicalQuality"/>
+    <mmo:isMappedTo rdf:resource="http://purl.bioontology.org/ontology/LNC/1988-5"/>
+    <mmo:isPartOfModule rdf:resource="http://purl.org/mit/mmo/modules/loinc"/>
+    <mmo:hasSource>LOINC</mmo:hasSource>
+    <dcterms:source>LOINC Concept 1988-5</dcterms:source>
+    <owl:equivalentClass rdf:resource="loinc:1988-5"/>
+    <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/LNC/1988-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/mit/mmo/modules/loinc#8867-4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Heart rate:NRat:Pt:XXX:Qn</rdfs:label>
+    <rdfs:comment>Measurement of pulse rate expressed as beats per minute, used in cardiovascular evaluation.</rdfs:comment>
+    <mmo:hasExternalParent rdf:resource="http://purl.bioontology.org/ontology/LNC/LP415756-8"/>
+    <mmo:isConstantRefinementOf rdf:resource="http://purl.org/mit/mmo/cdf#PhysiologicalQuality"/>
+    <mmo:isMappedTo rdf:resource="http://purl.bioontology.org/ontology/LNC/8867-4"/>
+    <mmo:isPartOfModule rdf:resource="http://purl.org/mit/mmo/modules/loinc"/>
+    <mmo:hasSource>LOINC</mmo:hasSource>
+    <dcterms:source>LOINC Concept 8867-4</dcterms:source>
+    <owl:equivalentClass rdf:resource="loinc:8867-4"/>
+    <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/LNC/8867-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0002-4505-4593">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Dr. Rogério Blitz</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb5d9ec34b0e49a8a296199b0df25fc2">
+    <xsd:datatype>xsd:boolean</xsd:datatype>
+  </rdf:Description>
+</rdf:RDF>
