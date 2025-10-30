@@ -1,0 +1,109 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix loinc: <http://purl.bioontology.org/ontology/LNC/> .
+
+@prefix mmo: <http://purl.org/mit/mmo#> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/mit/mmo/modules/loinc> a owl:Ontology ;
+    rdfs:label "LOINC Ontology Module" ;
+ dc:description "This module integrates selected concepts from the LOINC ontology into the Meta Mesh Ontology. It supports reasoning-compatible classification while preserving original semantic context."@en ;
+ dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+ dc:title "LOINC Ontology Module for Meta Mesh Ontology" ;
+ dcterms:contributor "Dr. Rogério Blitz" ;
+ dcterms:created "2025-05-08" ;
+ dcterms:creator <https://orcid.org/0000-0002-4505-4593> ;
+ dcterms:hasVersion "1.0.0" ;
+ dcterms:isVersionOf <http://purl.org/mit/mmo/modules/loinc> ;
+ dcterms:issued "2025-10-30" ;
+ dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+ dcterms:modified "2025-10-30" ;
+ dcterms:publisher "Dr. Rogério Blitz" ;
+ dcterms:rights "This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0)." ;
+ dcterms:rightsHolder "Dr. Rogério Blitz" ;
+ dcterms:title "LOINC Ontology Module for Meta Mesh Ontology" ;
+    rdfs:comment "This module integrates selected concepts from the LOINC ontology into the Meta Mesh Ontology. It supports reasoning-compatible classification while preserving original semantic context." ;
+    owl:versionInfo "1.0.0"^^xsd:string ;
+    skos:changeNote <https://www.w3.org/2009/08/skos-reference/skos.html> .
+
+<http://purl.org/mit/mmo/modules/loinc#1988-5> a owl:Class ;
+    rdfs:label "C reactive protein:MCnc:Pt:Ser/Plas:Qn" ;
+ dcterms:source "LOINC Concept 1988-5" ;
+    mmo:hasExternalParent loinc:LP384546-0 ;
+    mmo:hasSource "LOINC" ;
+    mmo:isConstantRefinementOf <http://purl.org/mit/mmo/cdf#PhysiologicalQuality> ;
+    mmo:isMappedTo loinc:1988-5 ;
+    mmo:isPartOfModule <http://purl.org/mit/mmo/modules/loinc#Module> ;
+    rdfs:comment "Biomarker of systemic inflammation indicating acute or chronic inflammatory states." ;
+    skos:exactMatch loinc:1988-5 .
+
+<http://purl.org/mit/mmo/modules/loinc#39156-5> a owl:Class ;
+    rdfs:label "Body mass index:Ratio:Pt:^Patient:Qn" ;
+ dcterms:source "LOINC Concept 39156-5" ;
+    mmo:hasExternalParent loinc:MTHU000036 ;
+    mmo:hasSource "LOINC" ;
+    mmo:isConstantRefinementOf <http://purl.org/mit/mmo/cdf#PhysiologicalRelationalQuality> ;
+    mmo:isMappedTo loinc:39156-5 ;
+    mmo:isPartOfModule <http://purl.org/mit/mmo/modules/loinc#Module> ;
+    rdfs:comment "Quantitative index derived from weight and height , used to categorize body composition." ;
+    skos:exactMatch loinc:39156-5 .
+
+<http://purl.org/mit/mmo/modules/loinc#62292-8> a owl:Class ;
+    rdfs:label "Calcidiol+ercalcidiol:MCnc:Pt:Ser/Plas:Qn" ;
+ dcterms:source "LOINC Concept 62292-8" ;
+    mmo:hasExternalParent loinc:LP385185-6 ;
+    mmo:hasSource "LOINC" ;
+    mmo:isConstantRefinementOf <http://purl.org/mit/mmo/cdf#PhysiologicalQuality> ;
+    mmo:isMappedTo loinc:62292-8 ;
+    mmo:isPartOfModule <http://purl.org/mit/mmo/modules/loinc#Module> ;
+    rdfs:comment "Assesses total vitamin D status by quantifying 25-hydroxy and 24 , 25-dihydroxy derivatives." ;
+    skos:exactMatch loinc:62292-8 .
+
+<http://purl.org/mit/mmo/modules/loinc#8867-4> a owl:Class ;
+    rdfs:label "Heart rate:NRat:Pt:XXX:Qn" ;
+ dcterms:source "LOINC Concept 8867-4" ;
+    mmo:hasExternalParent loinc:LP415756-8 ;
+    mmo:hasSource "LOINC" ;
+    mmo:isConstantRefinementOf <http://purl.org/mit/mmo/cdf#PhysiologicalQuality> ;
+    mmo:isMappedTo loinc:8867-4 ;
+    mmo:isPartOfModule <http://purl.org/mit/mmo/modules/loinc#Module> ;
+    rdfs:comment "Measurement of pulse rate expressed as beats per minute , used in cardiovascular evaluation." ;
+    skos:exactMatch loinc:8867-4 .
+
+<http://purl.org/mit/mmo/modules/loinc#9813-7> a owl:Class ;
+    rdfs:label "Cortisol^AM peak specimen:MCnc:Pt:Ser/Plas:Qn" ;
+ dcterms:source "LOINC Concept 9813-7" ;
+    mmo:hasExternalParent loinc:LP381061-3 ;
+    mmo:hasSource "LOINC" ;
+    mmo:isConstantRefinementOf <http://purl.org/mit/mmo/cdf#PhysiologicalQuality> ;
+    mmo:isMappedTo loinc:9813-7 ;
+    mmo:isPartOfModule <http://purl.org/mit/mmo/modules/loinc#Module> ;
+    rdfs:comment "Quantifies morning peak cortisol levels to evaluate adrenal function and stress response." ;
+    skos:exactMatch loinc:9813-7 .
+
+<https://orcid.org/0000-0002-4505-4593> a foaf:Person ;
+    rdfs:label "Dr. Rogério Blitz"@en ;
+    rdfs:comment "Ontology creator identified via ORCID."@en ;
+ foaf:name "Dr. Rogério Blitz" .
+
+<http://purl.org/mit/mmo/modules/loinc#Module> a mmo:OntologyModule ;
+    rdfs:label "Logical Observation Identifier Names and Codes Integration Module" ;
+    mmo:definesClass <http://purl.org/mit/mmo/modules/loinc#1988-5> ,
+ <http://purl.org/mit/mmo/modules/loinc#39156-5> ,
+ <http://purl.org/mit/mmo/modules/loinc#62292-8> ,
+ <http://purl.org/mit/mmo/modules/loinc#8867-4> ,
+ <http://purl.org/mit/mmo/modules/loinc#9813-7> ;
+    mmo:hasScope "specific" ;
+    mmo:hasUseCase "Integration of LOINC concepts into the MMO" ;
+    mmo:isBFOCompliant "true" .
